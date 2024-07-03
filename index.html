@@ -1,11 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IKEA Project</title>
+    <!-- boostsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- faviicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <!-- splide -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
 </head>
+
 <body>
-    <h1>Welcome my IKEA project with HTML-CSS-BOOTSRAP</h1>
+    <!--navbar start-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://www.ikea.com/gb/en/static/ikea-logo.3ee105eef6b5939c1269.svg" alt="IKEA BRAND">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item mr-3">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-solid fa-car-side pr-1"></i>
+                            Enter Postcode
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa-solid fa-store pr-1"></i>
+                            Select Store</a>
+                    </li>
+                    <li class="nav-item login-button">
+                        <a class="nav-link" href="#">Hej! Log in</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--navbar altı liste start-->
+    <div class="container p-3">
+
+        <ul class="list-inline text-center ">
+            <li class="list-inline-item ">
+                <a href="" class="btn btn-autline navbar_list"><small>Shop Products</small></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="" class="btn btn-autline navbar_list"><small>Shop by Room</small></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="" class="btn btn-autline navbar_list"><small>Offers</small></a>
+            </li>
+
+            <li class="list-inline-item">
+                <a href="" class="btn btn-autline navbar_list"><small>Tips, Ideas &amp;
+                        Trends</small></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="" class="btn btn-autline navbar_list"><small>Help&amp; Support</small></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="" class="btn btn-autline navbar_list"><small>IKEA for Business</small></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide splide_card">
+                    <img src="https://www.ikea.com/gb/en/images/products/ikea-ps-1995-clock-blue__1277238_pe931019_s5.jpg?imwidth=160"
+                        alt="">
+                    <span>New</span>
+
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/storage-organisation-st001.jpeg?imwidth=160"
+                        alt="">
+                    <span>Storage &amp; organisation</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/furniture-fu001.jpeg?imwidth=160"
+                        alt=""><span>Furniture</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/outdoor-products-od001.jpeg?imwidth=160"
+                        alt="">
+                    <span>Outdoor living</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/decoration-de001.jpeg?imwidth=160"
+                        alt=""><span>Decoration</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/lighting-li001.jpeg?imwidth=160"
+                        alt=""><span>Lighting</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/textiles-tl001.jpeg?imwidth=160"
+                        alt=""><span>Textiles</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/pet-products-pt001.jpeg?imwidth=160"
+                        alt=""><span>Pet products</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/global/assets/range-categorisation/images/product/kitchenware-tableware-kt001.jpeg?imwidth=160"
+                        alt=""><span>Kitchenware &amp; tableware</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/kitchen-appliances-ka001.jpeg?imwidth=160"
+                        alt="" style=""><span style="">Kitchens</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/global/assets/range-categorisation/images/product/food-beverages-fb001.jpeg?imwidth=160"
+                        alt=""><span>Food &amp; beverages</span>
+                </li>
+                <li class="splide__slide">
+                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/home-electronics-he001.jpeg?imwidth=160"
+                        alt=""><span>Home electronics</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script>
+        var splide = new Splide('.splide', {
+            type: 'loop',
+            perPage: 5,
+            perMove: 1,
+            focus: 'center',
+            pagination: false,
+            autoplay: true,
+        });
+
+        splide.mount();
+
+    </script>
+
 </body>
+
 </html>
