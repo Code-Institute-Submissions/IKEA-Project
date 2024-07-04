@@ -13,13 +13,11 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <!-- splide -->
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
 </head>
 
 <body>
-    <!--navbar start-->
+    <!--navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -35,7 +33,7 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
                     <li class="nav-item mr-3">
                         <a class="nav-link active" aria-current="page" href="#">
                             <i class="fa-solid fa-car-side pr-1"></i>
@@ -58,7 +56,6 @@
 
     <!--navbar altı liste start-->
     <div class="container p-3">
-
         <ul class="list-inline text-center ">
             <li class="list-inline-item ">
                 <a href="" class="btn btn-autline navbar_list"><small>Shop Products</small></a>
@@ -83,87 +80,291 @@
         </ul>
     </div>
 
+    <!-- Carausel  -->
 
-    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-        <div class="splide__track">
-            <ul class="splide__list">
-                <li class="splide__slide splide_card">
-                    <img src="https://www.ikea.com/gb/en/images/products/ikea-ps-1995-clock-blue__1277238_pe931019_s5.jpg?imwidth=160"
-                        alt="">
-                    <span>New</span>
+    <div id="carouselExampleAutoplaying " class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner carousel_container">
+            <div class="carousel-item active relative">
+                <img src="https://media.licdn.com/dms/image/D4D12AQER1j__YiSVtQ/article-cover_image-shrink_720_1280/0/1693305466437?e=2147483647&v=beta&t=KIbZOxDzdU64fxSLhAWiaTvWN2BD3FwBcmYkq0WjetQ"
+                    class="d-block w-100 " alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.ikea.com/images/free-delivery-on-orders-over-usd299-06dc87f9e599460475037706be42fe72.jpg?f=sg"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.ikea.com/images/get-and-extra-10-off-172daad6024b21c35a907da358d2ef28.jpg?f=sg"
+                    class="d-block w-100 carousel_img" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/storage-organisation-st001.jpeg?imwidth=160"
-                        alt="">
-                    <span>Storage &amp; organisation</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/furniture-fu001.jpeg?imwidth=160"
-                        alt=""><span>Furniture</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/outdoor-products-od001.jpeg?imwidth=160"
-                        alt="">
-                    <span>Outdoor living</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/decoration-de001.jpeg?imwidth=160"
-                        alt=""><span>Decoration</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/lighting-li001.jpeg?imwidth=160"
-                        alt=""><span>Lighting</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/textiles-tl001.jpeg?imwidth=160"
-                        alt=""><span>Textiles</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/pet-products-pt001.jpeg?imwidth=160"
-                        alt=""><span>Pet products</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/global/assets/range-categorisation/images/product/kitchenware-tableware-kt001.jpeg?imwidth=160"
-                        alt=""><span>Kitchenware &amp; tableware</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/kitchen-appliances-ka001.jpeg?imwidth=160"
-                        alt="" style=""><span style="">Kitchens</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/global/assets/range-categorisation/images/product/food-beverages-fb001.jpeg?imwidth=160"
-                        alt=""><span>Food &amp; beverages</span>
-                </li>
-                <li class="splide__slide">
-                    <img src="https://www.ikea.com/gb/en/range-categorisation/images/product/home-electronics-he001.jpeg?imwidth=160"
-                        alt=""><span>Home electronics</span>
-                </li>
-            </ul>
+    <!--carousel subtitles-->
+    <ul class="list-inline text-center py-5 bg-light">
+        <li class="list-inline-item">
+            <a href="" class="btn btn-autline"><img
+                    src="https://st3.myideasoft.com/idea/kc/78/themes/selftpl_624e9c1536700/assets/uploads/shopping_banner_image_1.png?revision=7.2.5.2-10-1680690950"
+                    alt="" />Free Delivery</a>
+        </li>
+        <li class="list-inline-item ml-5">
+            <a href="" class="btn btn-autline"><img
+                    src="https://st3.myideasoft.com/idea/kc/78/themes/selftpl_624e9c1536700/assets/uploads/shopping_banner_image_2.png?revision=7.2.5.2-10-1680690950"
+                    alt="" />Delivery by appointmentt</a>
+        </li>
+        <li class="list-inline-item ml-5">
+            <a href="" class="btn btn-autline"><img
+                    src="https://st3.myideasoft.com/idea/kc/78/themes/selftpl_624e9c1536700/assets/uploads/shopping_banner_image_3.png?revision=7.2.5.2-10-1680690950"
+                    alt="" />2 Year Warranty</a>
+        </li>
 
+        <li class="list-inline-item ml-5">
+            <a href="" class="btn btn-autline"><img
+                    src="https://st3.myideasoft.com/idea/kc/78/themes/selftpl_624e9c1536700/assets/uploads/shopping_banner_image_4.png?revision=7.2.5.2-10-1680690950"
+                    alt="" />Free Installation</a>
+        </li>
+        <li class="list-inline-item ml-5">
+            <a href="" class="btn btn-autline"></a><img
+                src="https://st3.myideasoft.com/idea/kc/78/themes/selftpl_624e9c1536700/assets/uploads/shopping_banner_image_6.png?revision=7.2.5.2-10-1680690950"
+                alt="">Protected Packaging</a>
+        </li>
+    </ul>
+
+    <h3 class="text-center mt-5  text-muted">
+        <strong>THE NEWEST</strong> LIVING ROOM FURNITURE
+    </h3>
+    <!-- NEWEST LIGING ROOM -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 mt-5">
+        <div class="col">
+            <div class="card ">
+                <div class="w-100">
+                    <div class="img_container">
+                        <img src="https://www.ikea.com/ext/ingkadam/m/7a5bb08e7e08a5e7/original/PH188008.jpg?f=xxl"
+                            class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">3-seat sofa, Knäbäck/anthracite birch</h5>
+                    <p class="card-text">
+                        Maybe the softest sofa you’ll ever own! The ESSEBODA series spoils you with everything from the
+                        sofa's embracing feel, deep seats and high backrests to timeless design, fine details and many
+                        possibilities.
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4><strong class="text-body-secondary ">£1430</strong></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class="img_container">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/7081d3b6b9464ba/original/PH179580-crop001.jpg?f=xxl"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">4-seat sofa with chaise longue, Gunnared</h5>
+                    <p class="card-text">The VIMLE sofa series has sections that can be combined as you like into a
+                        customised solution for you and your home – and as your life changes, you can complete the sofa
+                        and let it change with you.
+                    </p>
+                </div>
+                <div class="card-footer py-1 text-center">
+                    <h4><strong class="text-body-secondary ">£1230</strong></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class="img_container">
+                    <img src="https://www.ikea.com/ext/ingkadam/m/13c7b2559445c5aa/original/PH176784-crop001.jpg?f=xxl"
+                        class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body">
+                    <h5 class="card-title text-center">3-seat sofa, Gunnared dark grey/wood</h5>
+                    <p class="card-text">Warm and welcoming, neat and stylish. The supporting seat cushions, the cover’s
+                        soft finish and the tight fit gives this sofa a perfect balance between its comfort, functions
+                        and look.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4><strong class="text-body-secondary ">£930</strong></h4>
+                </div>
+            </div>
         </div>
     </div>
 
+    <h3 class="text-center mt-5  text-muted">
+        <strong>BEDHROOM</strong> FURNITURE
+    </h3>
 
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mx-5 mt-5">
+        <div class="col">
+            <div class="card ">
+                <div class="w-100">
+                    <div class="img_container">
+                        <img src="https://www.ikea.com/gb/en/images/products/malm-bed-frame-high-blue-luroey__1334764_pe946885_s5.jpg?f=xxs"
+                            class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Bed frame, high, blue/Luröy</h5>
+                    <p class="card-text">
+                        A clean-lined bed in a blue colour that adds an elegant and calm feel to your bedroom. If you
+                        need space for extra bedding, add matching MALM bed storage boxes on castors.
+                    </p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4><strong class="text-body-secondary ">£179</strong></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class="img_container">
+                    <img src="https://www.ikea.com/gb/en/images/products/slattum-upholstered-bed-frame-vissle-dark-grey__1259363_pe926663_s5.jpg?f=xl"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Upholstered bed frame, Vissle dark grey
+                    </h5>
+                    <p class="card-text">Warm and welcoming, neat and stylish. The supporting seat cushions, the cover’s
+                        soft finish and the tight fit gives this sofa a perfect balance between its comfort, functions
+                        and look.</p>
+                </div>
+                <div class="card-footer py-1 text-center">
+                    <h4><strong class="text-body-secondary ">£119</strong></h4>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class="img_container">
+                    <img src="https://www.ikea.com/gb/en/images/products/ramnefjaell-upholstered-bed-frame-kilanda-light-beige-luroey__1258175_pe927363_s5.jpg?f=xl"
+                        class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center">Upholstered bed frame, Kilanda light beige/Luröy
+                    </h5>
+                    <p class="card-text">This upholstered bed frame makes your bedroom feel soft and warm. The curved
+                        headboard and piped edges create a classic look – and the entire cover is removable and machine
+                        washable.</p>
+                </div>
+                <div class="card-footer text-center">
+                    <h4><strong class="text-body-secondary ">£930</strong></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3 class="text-center text-muted  mt-5">
+            <strong>Iconic Bellona </strong>Designs
+            </h2>
+    </div>
+
+    <div class="container bg-light border-bottom mt-5">
+        <div class="row mt-3">
+            <div class="col-sm-6 pr-5">
+                <a href="">
+                    <img class="img-thumbnail" width="600" height="400"
+                        src="https://www.ikea.com/images/67/ca/67ca2db28f8f6324bd49c73e55ad0e5c.jpg?f=xl" alt="" /></a>
+                <h3 class="py-2 text-center"><strong>Modern kitchens</strong></h3>
+                <h2 class="text-center"><span class="font ">£13.000</span> with prices starting from</h2>
+            </div>
+            <div class="col-sm-6 pl-5">
+                <a href="">
+                    <img class="img-thumbnail" width="600" height="400"
+                        src="https://www.ikea.com/images/a-kitchen-with-traditional-green-fronts-wood-worktop-and-bla-02804f9337fb33616339b68b000d8840.jpg?f=xl"
+                        alt="" /></a>
+                <h3 class="py-2 text-center"><strong>Traditional kitchens</strong></h3>
+                <h2 class="text-center"><span class="font ">£15.000</span> with prices starting from</h2>
+            </div>
+        </div>
+    </div>
+
+    <section class="container bg-dark justify-content-center p-3 mb-3 mt-3 text-light sm-w-75 md-w-75 mt-5">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="info@ikeauk.com" />
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Write Your Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="d-flex justify-content-end">
+            <button type="button" class="btn btn-outline-info d-flex justify-content-end">
+                Send
+            </button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container-fluid footer bg-dark text-center py-5  p-3 mt-5 text-light">
+        <div class="row">
+            <div class="col-12 col-md ">
+                <h5>IKEA</h5>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Living Room</h5>
+                <ul class="list-unstyled text-small">
+                    <li>Living Room</li>
+                    <li>Sofa Sets</li>
+                    <li>Seating Groups</li>
+                    <li>Corner Sofa</li>
+                    <li>tTv seats</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Dining Room</h5>
+                <ul class="list-unstyled text-small">
+                    <li>Dining Room Sets</li>
+                    <li>Kitchen Table Set</li>
+                    <li>Dining Room</li>
+                    <li>Chair</li>
+                    <li>Console</li>
+                    <li>Showcase</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Bedroom</h5>
+                <ul class="list-unstyled text-small">
+                    <li>Bedroom Set</li>
+                    <li>Wardrobe</li>
+                    <li>Bed</li>
+                    <li>Dresser</li>
+                    <li>Nightstand</li>
+                    <li>Plinth-Headboard</li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Help</h5>
+                <ul class="list-unstyled text-small">
+                    <li>Membership Agreement</li>
+                    <li>Operation Guide</li>
+                    <li>Cancellation and Refund Conditions</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- boostrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-
-    <script>
-        var splide = new Splide('.splide', {
-            type: 'loop',
-            perPage: 5,
-            perMove: 1,
-            focus: 'center',
-            pagination: false,
-            autoplay: true,
-        });
-
-        splide.mount();
-
-    </script>
-
 </body>
 
 </html>
