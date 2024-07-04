@@ -32,11 +32,13 @@
     </ol>
     <h2 id="screenshots">Screenshots</h2>
     <figure>
-          ![Screenshot 2024-07-04 171639](https://github.com/pmammedov/IKEA-Project/assets/30790180/9da893d5-5cb3-42a9-9167-2f0def479932)
+
+![Screenshot 2024-07-04 171639](https://github.com/pmammedov/IKEA-Project/assets/30790180/9da893d5-5cb3-42a9-9167-2f0def479932)
             <figcaption>Screenshot of the home page showcasing hero section.</figcaption>
     </figure>
     <figure>
-         ![Screenshot 2024-07-04 171701](https://github.com/pmammedov/IKEA-Project/assets/30790180/bf1e769f-d5d0-43c0-a947-8baadb6e649a)
+        
+![Screenshot 2024-07-04 171701](https://github.com/pmammedov/IKEA-Project/assets/30790180/bf1e769f-d5d0-43c0-a947-8baadb6e649a)
         <figcaption>Screenshot of a product page information.</figcaption>
     </figure>
     <h2 id="contact">Contact</h2>
