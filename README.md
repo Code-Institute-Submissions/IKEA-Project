@@ -3,6 +3,7 @@
     <p>
         The IKEA Project is a web application designed to showcase various IKEA products. The application is built using HTML, CSS, and Bootstrap, providing a responsive and user-friendly interface. The goal of this project is to provide an easy and convenient way for users to browse and view IKEA products.
     </p>
+    <a href="https://pmammedov.github.io/IKEA-Project/">Live link</a>
     <h2 id="technologies-used">Technologies Used</h2>
     <ul>
         <li><strong>HTML</strong>: For structuring the content.</li>
